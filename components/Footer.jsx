@@ -16,10 +16,12 @@ const Footer = () => {
               </p>
            </div>
            <div className={styles.redes}>
-               <div className={styles.whatsapp}>
+                <a href='https://api.whatsapp.com/send?phone=+573046061784&text= Hola Alejandra necesito mas informacion'>
+                <div className={styles.whatsapp}>
                    <FontAwesomeIcon icon={faWhatsapp}/>
 
                </div>
+                </a>
                <div className={styles.facebook}>
                    <FontAwesomeIcon icon={faFacebook}/>
 
