@@ -33,13 +33,14 @@
 .titulo{
     text-align: center;
     color: goldenrod;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 700;
-    text-shadow: -5px 2px 12px rgba(75, 199, 18, 0.5);
+    text-shadow: -5px 2px 12px rgba(236, 245, 231, 0.5);
 }
 
 .parrafo{
     color: goldenrod;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+    font-size: 25px;
 }

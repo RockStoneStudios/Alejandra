@@ -1,5 +1,5 @@
 import styles from '../styles/Navbar.module.css';
-
+import Link from 'next/link';
 
  const Navbar = () => {
     return (
@@ -10,7 +10,9 @@ import styles from '../styles/Navbar.module.css';
              <div className={styles.itemR}>
                  <ul className={styles.list}>
                      <li className = {styles.listItem}>Home</li>
+                     <Link href= "/valores">
                      <li className = {styles.listItem}>Valores</li>
+                     </Link>
                      <li className = {styles.listItem}>Quienes Somos</li>
                      <li className = {styles.listItem}>Planes SG-SST</li>
                      <li className = {styles.listItem}>Otros Servicios</li>
