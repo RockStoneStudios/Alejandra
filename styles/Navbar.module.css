@@ -1,5 +1,5 @@
 .container{
-    background-color: rgb(7, 6, 6);
+    background-color: rgb(255, 242, 242);
     height: 100px;
     display: flex;
     align-items: center;
@@ -10,9 +10,9 @@
 }
 
 .logo {
-    color: blanchedalmond;
+    color: rgb(178, 190, 4);
     font-size: 35px;
-    text-shadow: 1px 3px 10px rgb(204, 191, 8);
+    text-shadow: 1px 3px 10px rgb(151, 151, 240);
     letter-spacing: 3px;
                 
 }
@@ -34,7 +34,7 @@
 .list{
     padding: 0;
     display: flex;
-    color: wheat;
+    color: rgb(178, 190, 4);
     list-style : none;
 
 }
@@ -47,6 +47,7 @@
 }
 
 .listItem:hover{
+    transform: scale(1.2);
   filter: brightness(2);
 }
 

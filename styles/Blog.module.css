@@ -1,7 +1,7 @@
 
 .container{
     display: flex;
-    background-color: rgb(6, 6, 7);
+    background-color: rgb(223, 223, 235);
     width: 30%;
     padding: 10px;
     justify-content: center;
@@ -30,7 +30,7 @@
     overflow: hidden;
     width: 20rem;
     backdrop-filter: blur(1rem);
-    background-color: rgba(1, 12, 11, 0.842);
+    background-color: rgba(7, 223, 205, 0.842);
     border: .1rem solid rgba(255,255,255,0.06);
    color: seashell;
 }
