@@ -1,0 +1,232 @@
+
+  .container{
+      width: 100%;
+      height: 100%;
+      background-color: rgb(0, 0, 0);
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      border-bottom: 2px solid rgb(230, 213, 170);
+      gap: 15px;
+      margin : auto;
+      justify-items: center;
+      align-items: center;
+  }
+
+  .titulo{
+      color: seashell;
+  }
+
+
+  .card{
+      height: 250px;
+      width: 300px;
+      overflow: hidden;
+      margin: auto;
+      padding: 10px 30px;
+      border-radius: 2%;
+      border-radius: 1px solid #fff;
+      transition: all .4s ease-in-out;
+      box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, .3);
+      text-align: center;
+      background: linear-gradient(-135deg,#c850c0,#4158d0);
+
+  }
+
+  .card:hover{
+      height: 500px;
+      width: 300px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, .5);
+  }
+
+ .cardEncabezado img{
+        position: relative;
+        border-radius: 50%;
+        display: block;
+        height: 200px;
+        width: 200px;
+        border-top: 8px solid #fff;
+        border-bottom: 8px solid #fff;
+        object-fit: cover;
+        margin : 20px auto;
+        transition: all 0.s ease;
+    }
+
+    .cardEncabezado{
+        position: relative;
+    }
+
+    .cardEncabezado::before, .cardEncabezado::after{
+        content: '';
+        position: absolute;
+        opacity: .7;
+    }
+
+       .cardEncabezado::after {
+           border-radius: 50%;
+           z-index: 20;
+           background-color: yellow;
+           width: 50px;
+           height: 50px;
+           top: 0;
+           right: 25px;
+       }
+  
+     .cardEncabezado::before{
+         width: 70px;
+         height: 70px;
+         left: -10px;
+         border-radius: 20px;
+         background-color: rgb(238, 42, 98);
+         transform: rotate(120deg);
+     }   
+
+.cardIconos{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 15px;
+    list-style: none;
+}
+.cardIconos li{
+    border-radius: 50%;
+    background-color: rgb(230, 213, 170);
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    line-height: 40px;
+    text-align: center;
+    transform: scale(0);
+    transition: all 0.5s ease;
+}
+
+.agrandar{
+    transform: scale(0);
+    opacity: 0;
+    transition: all .4s ease;
+}
+
+.desplazar{
+    opacity: 0;
+    transition: all .5s ease;
+    transform: translateY(-45px);
+}
+
+.card:hover .agrandar{
+    opacity: 1;
+    transform: scale(1);
+
+}
+
+
+.card:hover .desplazar{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.cardIconos li a{
+    color: #7813d6;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background: rgb(221, 228, 252);
+    display: block;
+    line-height: 40px;
+    transition: all 0.3s;
+}
+
+.cardIconos li a:hover{
+   transform: scale(1.1);
+    box-shadow: 0px 0px 5px #7813d6;
+}
+
+
+.cardIconos li:nth-child(1){
+    transition-delay: 0.2s;
+    
+}
+
+.cardIconos li:nth-child(2){
+    transition-delay: 0.3s;
+    
+}
+
+.cardIconos li:nth-child(3){
+    transition-delay: 0.4s;
+    
+}
+
+.desplazar:nth-child(1){
+    transition-delay: 0.12s;
+}
+.desplazar:nth-child(2){
+    transition-delay: 0.21s;
+}
+.desplazar:nth-child(3){
+    transition-delay: 0.32s;
+}
+
+
+.infoPersonal{
+    color: aliceblue;
+}
+
+.infoPersonal:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.infoPersonal:nth-child(3){
+    margin: 15px 0;
+}
+
+.cardAcciones{
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+
+.botones{
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+    padding: 8px 15px;
+    font-size: 16px;
+    width: 80%;
+    margin: 0  auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg,#7579ff,#b224ef);
+}
+
+
+.botones:hover{
+    cursor: pointer;
+    width: 100%;
+}
+
+.botones span{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width : 480px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+
+
+
+
+.whastapp{
+    color: seagreen;
+}

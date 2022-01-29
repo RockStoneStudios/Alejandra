@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 6, 7);
+    border-bottom: 0.6px solid rgb(255, 254, 247);
+}
+
+.Info{
+    border : 1px solid rgb(rgb(228, 213, 14), green, blue);
+    padding: 10px;
+    margin: 0px 20px;
+}
+
+.titulo{
+    text-align: center;
+    color: rgb(255, 254, 247);
+    text-shadow: -2px 3px 12px rgb(228, 213, 14);
+    font-size: 35px;
+}
+
+.subtitulos{
+ margin: 1px 1px;
+ font-size: 18px;
+
+ color: rgb(255, 254, 247);
+    text-shadow: -2px 3px 12px rgb(228, 213, 14);
+
+}
+
+.listItem{
+    list-style:circle;
+    margin: 10px;
+    padding: 20px;
+   
+}
+
+
+
+.item{
+  margin: 15px;
+ color: rgb(255, 254, 247);
+ text-shadow: -2px 3px 12px rgb(228, 213, 14);
+}

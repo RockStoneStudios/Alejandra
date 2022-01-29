@@ -30,6 +30,7 @@
     cursor: pointer;
 }
 
+
 .list{
     padding: 0;
     display: flex;
@@ -46,8 +47,6 @@
 }
 
 .listItem:hover{
-    text-shadow: -2px 8px 10px rgba(204, 191, 8,0.7);
-    font-weight: 500;
-    font-size: 19px;
+  filter: brightness(2);
 }
 

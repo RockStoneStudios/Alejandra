@@ -1,7 +1,12 @@
 import styles from '../styles/Navbar.module.css';
 import Link from 'next/link';
+import { useState } from 'react';
+import DropDown from './DropDown'
 
  const Navbar = () => {
+   
+     const [open,setOpen] = useState(false);
+    
     return (
         <div className={styles.container}>
             <div className={styles.itemL}>
@@ -14,8 +19,14 @@ import Link from 'next/link';
                      <li className = {styles.listItem}>Valores</li>
                      </Link>
                      <li className = {styles.listItem}>Quienes Somos</li>
-                     <li className = {styles.listItem}>Planes SG-SST</li>
+                     <Link href="/sgsst">
+
+                     <li className = {styles.listItem} onMouseEnter={()=> setOpen(!open)}>Planes SG-SST </li>
+                     </Link>
+                     
+                    <Link href="/otros">
                      <li className = {styles.listItem}>Otros Servicios</li>
+                    </Link>
                      <li className = {styles.listItem}>Contactenos</li>
                  </ul>
             </div>          
