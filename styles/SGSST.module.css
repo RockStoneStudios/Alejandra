@@ -1,46 +1,51 @@
 .container{
     width: 100%;
-    height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:start;
+    padding: 15px;
     background-color: rgb(6, 6, 7);
     border-bottom: 0.6px solid rgb(255, 254, 247);
+    height: 100vh;
+    
 }
 
-.Info{
-    border : 1px solid rgb(rgb(228, 213, 14), green, blue);
-    padding: 10px;
-    margin: 0px 20px;
+.info{
+    color: aliceblue;
+    margin-left: 10px;
+   
+    width: 400px;
+    height: 500px;
 }
 
-.titulo{
-    text-align: center;
-    color: rgb(255, 254, 247);
-    text-shadow: -2px 3px 12px rgb(228, 213, 14);
-    font-size: 35px;
+.info:hover{
+    border: 2px solid rgba(50, 80, 145, 0.5);
 }
 
-.subtitulos{
- margin: 1px 1px;
- font-size: 18px;
 
- color: rgb(255, 254, 247);
-    text-shadow: -2px 3px 12px rgb(228, 213, 14);
-
-}
-
-.listItem{
-    list-style:circle;
-    margin: 10px;
+.subtitulo{
     padding: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.menuVertical{
+    height: 100px;
+    overflow: hidden;
+    list-style: none;
+    
+}
+
+ .item{
+    padding: 10px;
+    list-style :none;
    
 }
 
-
-
-.item{
-  margin: 15px;
- color: rgb(255, 254, 247);
- text-shadow: -2px 3px 12px rgb(228, 213, 14);
+ .menuVertical:hover {
+    overflow: visible;
+    height: 100px;
+    width: 100%;
+    color: aqua;
 }
+

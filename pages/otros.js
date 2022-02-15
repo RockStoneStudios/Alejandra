@@ -3,115 +3,101 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faWhatsapp,faFacebook,faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 const otros = () => {
-  return( <div className = {styles.container}>
+  return(
+       <div className = {styles.container}>
    
        <div className={styles.card}>
            <div className={styles.cardEncabezado} >
-               <img src ='/img/elon.jpg' alt='' ></img>
-           </div>
-           <div className={styles.cardIconos}>
-               <li className={styles.agrandar}><a href='#'><span>  <FontAwesomeIcon icon={faWhatsapp}/></span></a></li>
-               <li className={styles.agrandar}><a href='#'><span>  <FontAwesomeIcon icon={faFacebook}/></span></a></li>
-               <li className={styles.agrandar}><a href='#'><span>  <FontAwesomeIcon icon={faInstagram}/></span></a></li>
+            <h1 className={styles.titulo}>Servicios y Complementos</h1>
 
            </div>
+          
+               <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+               Protocolo de bioseguridad para todas las empresas clase de riesgo I, II, II, IV, V.             
+               <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+               Capacitación con profesionales (psicólogos, fisioterapeutas, deportologos
+               </div>
+               <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+               Semana de la seguridad y salud en el trabajo
+               </div>
+               <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+               Afiliación a seguridad social, novedades y retiros de seguridad social.
+               </div>
+              <div className={[styles.infoPersonal,styles.desplazar].join(' ')}>
+               Asesorías y acompañamiento al programa de SPA 
+              </div>
+            
+               
+           </div>
+          
+       </div>
+       <div className={styles.card}>
+           <h1 className={styles.titulo}>Psicologia</h1>
            <div className={styles.contenido}>
                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
-                 Elon Musk
+               Medición de riesgo psicosocial
+
                </div>
                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
-                    Austin Texas 
+               Sistemas de Vigilancia Epidemiológica
                </div>
                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
-                 <p> CEO Tesla , SpaceX</p>
+               Análisis de puesto de trabajo para determinar patologías de origen laboral  por estrés   
                </div>
+               <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+                 Talleres vivenciales en intervención Psicosocial   
+               </div>
+               <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+               Asesorías y capacitación al Comité de Convivencia Laboral COCOLA 
+               </div>
+
+               <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+               Asesorías y acompañamiento al programa de SPA 
+               </div>
+
+
            </div>
-           <div className={styles.cardAcciones}>
-               <button className={[styles.botones,styles.agrandar].join(' ')}>
-                   <span></span> Enviar Correo
-               </button>
-           </div>
+          
        </div>
        <div className={styles.card}>
            <div className={styles.cardEncabezado} >
-               <img src ='/img/jeff.jpg' alt='' ></img>
-           </div>
-           <div className={styles.cardIconos}>
-               <li className={styles.agrandar}><a href='#'><span>  <FontAwesomeIcon icon={faWhatsapp}/></span></a></li>
-               <li className={styles.agrandar}><a href='#'><span>  <FontAwesomeIcon icon={faFacebook}/></span></a></li>
-               <li className={styles.agrandar}><a href='#'><span>  <FontAwesomeIcon icon={faInstagram}/></span></a></li>
-
+            <h1 className={styles.titulo}>Contaduria</h1>
            </div>
            <div className={styles.contenido}>
                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
-                   Jeff Bezos
+               Asesorías contables
+
                </div>
                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
-                    Seatle Washington
+               Declaraciones de renta 
                </div>
                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
-                 <p>CEO Amazon</p>
+                
                </div>
            </div>
-           <div className={styles.cardAcciones}>
-               <button className={[styles.botones,styles.agrandar].join(' ')}>
-                   <span></span> Enviar Correo
-               </button>
-           </div>
+          
        </div>
        <div className={styles.card}>
            <div className={styles.cardEncabezado} >
-               <img src ='/img/scarlet.jpg' alt='' ></img>
-           </div>
-           <div className={styles.cardIconos}>
-               <li className={styles.agrandar}><a href='#'><span>  <FontAwesomeIcon icon={faWhatsapp}/></span></a></li>
-               <li className={styles.agrandar}><a href='#'><span>  <FontAwesomeIcon icon={faFacebook}/></span></a></li>
-               <li className={styles.agrandar}><a href='#'><span>  <FontAwesomeIcon icon={faInstagram}/></span></a></li>
-
+             <h1 className={styles.titulo}>Civiles</h1>
            </div>
            <div className={styles.contenido}>
                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
-                   Scarlet Johannson
+               Alquiler de maquinaria pesada.
+
                </div>
                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
-                    Malibu California
+               Construcción de obras civiles
                </div>
                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
-                 <p>Actriz de Cine</p>
+                Transporte de carga y movimiento de tierra.
                </div>
-           </div>
-           <div className={styles.cardAcciones}>
-               <button className={[styles.botones,styles.agrandar].join(' ')}>
-                   <span></span> Enviar Correo
-               </button>
-           </div>
-       </div>
-       <div className={styles.card}>
-           <div className={styles.cardEncabezado} >
-               <img src ='/img/larry.jpg' alt='' ></img>
-           </div>
-           <div className={styles.cardIconos}>
-               <li className={styles.agrandar}><a href='#'><span>  <FontAwesomeIcon icon={faWhatsapp}/></span></a></li>
-               <li className={styles.agrandar}><a href='#'><span>  <FontAwesomeIcon icon={faFacebook}/></span></a></li>
-               <li className={styles.agrandar}><a href='#'><span>  <FontAwesomeIcon icon={faInstagram}/></span></a></li>
+               <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+               Servicio de topografía
+               </div>
 
            </div>
-           <div className={styles.contenido}>
-               <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
-                  Larry Ellison
-               </div>
-               <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
-                    Palo Alto. California
-               </div>
-               <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
-                 <p>CEO Oracle, Java Enterprise</p>
-               </div>
-           </div>
-           <div className={styles.cardAcciones}>
-               <button className={[styles.botones,styles.agrandar].join(' ')}>
-                   <span></span> Enviar Correo
-               </button>
-           </div>
+           
        </div>
        <div className={styles.card}>
            <div className={styles.cardEncabezado} >
