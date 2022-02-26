@@ -8,15 +8,15 @@
 
 .title{
     font-size: 34px;
-    color: rgb(15, 14, 8);
-    text-shadow: 1px 2px 15px rgb(4, 135, 145);
+    color: rgb(12, 11, 8);
+  
 }
 
 .desc{
     font-size: 24px;
     color: rgb(5, 5, 3);
     width: 71%;
-    text-shadow: 1px 1px 5px rgb(35, 48, 221);
+  text-align: center;
 }
 
 
