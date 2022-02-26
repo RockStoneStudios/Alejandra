@@ -1,7 +1,9 @@
 import styles from '../styles/Navbar.module.css';
 import Link from 'next/link';
 import { useState } from 'react';
-import DropDown from './DropDown'
+import DropDown from './DropDown';
+import logo from '../public/img/logo22.png';
+import Image from 'next/image';
 
  const Navbar = () => {
    
@@ -10,7 +12,7 @@ import DropDown from './DropDown'
     return (
         <div className={styles.container}>
             <div className={styles.itemL}>
-              <h1 className={styles.logo}>M.O</h1>
+           <h1>M.O</h1>
             </div>
              <div className={styles.itemR}>
                  <ul className={styles.list}>

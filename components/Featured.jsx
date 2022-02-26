@@ -4,9 +4,9 @@ import { useState } from 'react';
  const Featured = () => {
      const [index,setIndex] = useState(0);
   const images = [
-      "/img/featured.png",
-      "/img/featured2.png",
-      "/img/featured3.png"
+      "/img/imagen11.jpg",
+      "/img/imagen22.jpg",
+      "/img/imagen33.jpg"
   ]
 
   const handleArrow = (direccion) =>{
@@ -23,7 +23,7 @@ import { useState } from 'react';
             <div className={styles.arrowContainer} style={{left :0}} onClick={()=>handleArrow("1")}>
              <Image src="/img/arrowl.png" alt='' layout='fill'/>
             </div>
-            <div className={styles.wrapper} style={{transform :`translateX(${-100*index}vw)`}}>
+            <div className={styles.wrapper} style={{transform :`translateX(${-90*index}vw)`}}>
               {images.map((img,i)=>(
                 <div className={styles.imgContainer} key = {i}>
                      <Image src={img}  alt= "" layout='fill' objectFit='contain'/>  
