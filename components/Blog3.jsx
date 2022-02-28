@@ -10,7 +10,7 @@ const Blog = () => {
              </div>
              <div className= {styles.content}>
                <h2 className={styles.titulo}></h2>
-               <p>Estándares Mínimos del Sistema de Gestion en Seguridad y Salud en el Trabajo</p>
+               <p>Estándares Mínimos del Sistema de Gestión en Seguridad y Salud en el Trabajo</p>
                <button className={styles.button}>Leer Mas</button>
              </div>
             </div>

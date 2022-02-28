@@ -8,8 +8,8 @@ import Blog5 from './Blog5';
 const ListBlog = () => {
     return (
         <div className={styles.container}>
-            <h1 className={styles.title}>Articulos de Interes</h1>
-             <p className={styles.desc}>La Seguridad y Salud en el Trabajo ha sido tema de interes y en los siguientes link encontraras actualizaciones que ha menudo el Ministerio de Trabajo, las Administraciones de Riesgos laborales ARL  y el Ministerio de Salud y Proteccion Social comparten con el fin de continuar con la promocion y prevencion de los empleadores y colaboradores de la empresa</p>
+            <h1 className={styles.title}>Artículos de Interés</h1>
+             <p className={styles.desc}>La Seguridad y Salud en el Trabajo ha sido tema de interés y en los siguientes blogs encontraras actualizaciones que a menudo el Ministerio de Trabajo, las Administradoras de Riesgos laborales ARL  y el Ministerio de Salud y Protección Social, comparten con el fin de continuar con la promoción y prevención de los empleadores y colaboradores de la empresa</p>
             <div className={styles.wrapper}>
                 <Blog/>
                 <Blog1/>

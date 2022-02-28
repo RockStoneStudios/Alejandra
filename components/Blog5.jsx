@@ -10,7 +10,7 @@ const Blog = () => {
              </div>
              <div className= {styles.content}>
                <h2 className={styles.titulo}></h2>
-               <p>Resoluciones,Circulares, Leyes, Decretos y Comunicados</p>
+               <p>Resoluciones, Circulares, Leyes, Decretos y Comunicados</p>
                <button className={styles.button}>Leer Mas</button>
              </div>
             </div>

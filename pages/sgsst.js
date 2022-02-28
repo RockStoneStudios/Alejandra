@@ -1,40 +1,110 @@
 import styles from '../styles/SGSST.module.css';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faWhatsapp,faFacebook,faInstagram} from '@fortawesome/free-brands-svg-icons';
 
- const SGSST = () => {
-    return (
-        <div className={styles.container}>
-           <div className={styles.info}>
-             
-               <ul className= {styles.menuVertical}>
-                   <li>  <h2 className= {styles.subtitulo}>Planes PH Propiedad Horizontal</h2></li>
-                   <li className={styles.item}>Diseño e Implementacion SG-SST</li>
-                   <li className= {styles.item}>Diseño , implementacion y ejecucion</li>
-                   <li className= {styles.item}>Acompañamiento mes a mes evidencia y Soporte</li>
-               </ul>
-           </div>
-           <div className={styles.info}>
-             
-             <ul className= {styles.menuVertical}>
-                 <li>  <h2 className= {styles.subtitulo}>Planes Clase de riesgo I – empresas </h2></li>
-                 <li className={styles.item}>Diseño e Implementacion SG-SST</li>
-                 <li className= {styles.item}>Diseño , implementacion y ejecucion</li>
-                 <li className= {styles.item}>Acompañamiento mes a mes evidencia y Soporte</li>
-             </ul>
+const sgsst = () => {
+  return(
+       <div className = {styles.container}>
+        <div className={styles.tituloI}>  
+            <h1 className={styles.tituloE}>Planes SG-SST</h1>
+            <p>M.O Seguridad y Salud en el Trabajo, tiene para usted los planes que se acomodan a tu medida, con el mismo compromiso, dedicación y calidad</p>
+        </div>
+         <div className={styles.targetas}>
+             <div className={styles.card}>
+                <div className={styles.cardEncabezado} >
+                
+                    <h1 className={styles.titulo}>Planes PH-Propiedad Horizontal</h1>
+                    <img src ='/img/img0.jpg' alt='' ></img>
+            
+
+                </div>
+            
+                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+                     Diseño e implementación SG-SST             
+                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+                  Diseño e implementación y Ejecución
+                </div>
+                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+                   Acompañamiento a la gestión mes a mes, evidencia y soporte
+                </div>
+               
+                
+                
+            </div>
+            
          </div>
-         <div className={styles.info}>
-             
-             <ul className= {styles.menuVertical}>
-                 <li>  <h2 className= {styles.subtitulo}>Planes Clase de riesgo II empresas textiles, confecciones </h2></li>
-                 <li className={styles.item}>Diseño e Implementacion SG-SST</li>
-                 <li className= {styles.item}>Diseño , implementacion y ejecucion</li>
-                 <li className= {styles.item}>Acompañamiento mes a mes evidencia y Soporte</li>
-             </ul>
-         </div>
+        <div className={styles.card}>
+            <h1 className={styles.titulo}>Planes Clase Riesgo I</h1>
+            <div className={styles.cardEncabezado} >
+                <img src ='/img/img1.jpg' alt='' ></img>
+            </div>
+            <div className={styles.contenido}>
+                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+                Diseño e implementación SG-SST
+
+                </div>
+                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+                Diseño e implementación y Ejecución
+                </div>
+                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+                Acompañamiento a la gestión mes a mes, evidencia y soporte
+                </div>
+                
+
+
+            </div>
             
         </div>
-    )
-}
+        <div className={styles.card}>
+            <div className={styles.cardEncabezado} >
+                <h1 className={styles.titulo}>Planes Clase Riesgo II</h1>
+                <img src ='/img/img2.jpg' alt='' ></img>
+            </div>
+            <div className={styles.contenido}>
+                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+                Diseño e implementación SG-SST
 
-export default SGSST;
+                </div>
+                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+                Diseño e implementación y Ejecución
+                </div>
+                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+                Acompañamiento a la gestión mes a mes, evidencia y soporte
+                </div>
+                
 
+
+            </div>
+            
+        </div>
+        <div className={styles.card}>
+            <div className={styles.cardEncabezado} >
+                <h1 className={styles.titulo}>Planes clase Riesgo III</h1>
+                <img src ='/img/img3.jpg' alt='' ></img>
+            </div>
+            <div className={styles.contenido}>
+                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+                Diseño e implementación SG-SST
+
+                </div>
+                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+                Diseño e implementación y Ejecución
+                </div>
+                <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
+                Acompañamiento a la gestión mes a mes, evidencia y soporte
+                </div>
+                
+
+
+            </div>
+            
+        </div>
+      
+       
+    </div>
+  </div>
+  )
+};
+
+export default sgsst;
 

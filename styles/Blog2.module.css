@@ -11,7 +11,7 @@
 }
 
 .topRow{
-      background : linear-gradient(45deg,rgb(231, 231, 240) ,rgb(228, 119, 231));
+      background : linear-gradient(45deg,rgb(231, 231, 240) ,rgb(235, 85, 202));
     backdrop-filter: blur(.4rem);
     border-bottom: 2px double rgb(223, 223, 235);
 
