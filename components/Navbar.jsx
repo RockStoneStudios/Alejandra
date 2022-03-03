@@ -1,45 +1,28 @@
-import styles from '../styles/Navbar.module.css';
+import {useState} from 'react'
 import Link from 'next/link';
-import { useState } from 'react';
-import DropDown from './DropDown';
-import logo from '../public/img/logo22.png';
-import Image from 'next/image';
+import {FaTimes,FaBars} from 'react-icons/fa';
+import styles from '../styles/Navbar.module.css';
 
- const Navbar = () => {
-   
-     const [open,setOpen] = useState(false);
-    
-    return (
-        <div className={styles.container}>
-            <div className={styles.itemL}>
-           <h1>M.O</h1>
-            </div>
-             <div className={styles.itemR}>
-                 <ul className={styles.list}>
-                     <Link href="/">
-                     <li className = {styles.listItem}>Home</li>
-                     </Link>
-                     <Link href= "/valores">
-                     <li className = {styles.listItem}>Valores</li>
-                     </Link>
-                     <Link href="/QuienesSomos">
-                     <li className = {styles.listItem}>Quienes Somos</li>
-                     </Link>
-                     <Link href="/sgsst">
-
-                     <li className = {styles.listItem} onMouseEnter={()=> setOpen(!open)}>Planes SG-SST </li>
-                     </Link>
-                     
-                    <Link href="/otros">
-                     <li className = {styles.listItem}>Otros Servicios</li>
-                    </Link>
-                    <Link href="/contactenos">
-                     <li className = {styles.listItem}>Contactenos</li>
-                    </Link>
-                 </ul>
-            </div>          
-        </div>
-    )
+const Navbar = () => {
+  const [open,setOpen] = useState(false);
+  return (
+    <>
+      <div className={styles.menu}>
+        <label className={styles.logo} >M.O</label>
+          <ul className={open ?[styles.menu_items,styles.show].join(' ') : styles.menu_items}>
+            <li onClick={()=>setOpen(false)}><Link href="/"><a>Home</a></Link></li>
+            <li  onClick={()=>setOpen(false)}><Link href="/valores"><a>Valores</a></Link></li>
+            <li onClick={()=>setOpen(false)}><Link href="/QuienesSomos"><a>Quienes Somos</a></Link></li>
+            <li onClick={()=>setOpen(false)}><Link href="/sgsst"><a>Planes SG-SST</a></Link></li>
+            <li onClick={()=>setOpen(false)}><Link href="/otros"><a>Otros Servicios</a></Link></li>
+            <li onClick={()=>setOpen(false)}><Link href="/contactenos"><a>Contactenos</a></Link></li>
+          </ul>
+      <span className= {styles.btn_menu} onClick={()=>setOpen(!open)}>
+       {open? (<FaTimes size={20}/>):(<FaBars size={20}/>)} 
+      </span>
+      </div>
+    </>
+  )
 }
 
-export default Navbar;
+export default Navbar

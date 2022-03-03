@@ -258,6 +258,10 @@
   .container {
       grid-template-columns: 1fr;
   }
+  .card{
+    margin: 15px auto;
+    height: 280px;
+  }
   
 }
 

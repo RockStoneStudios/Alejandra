@@ -1,9 +1,11 @@
 .container{
     background-color: rgb(7,6,6);
-    height: calc(100vh - 100px);
+    height: 500px;
     width: 100vw;
     position: relative;
     overflow: hidden;
+
+    
     
 }
 
@@ -31,5 +33,31 @@
     height: 70%;
     position: relative;
     
-    
 }
+
+
+@media screen and (max-width : 480px) {
+  
+    .container{
+      height: 45vh;
+      width: 107%;
+    }
+    .wrapper{
+        display: flex;
+        height: 100%;
+        width: 305vw;
+        transition: all 1.7s ease-in-out;
+        align-items: center;
+        
+    }
+
+    .imgContainer {
+        width: 130vw;
+        height: 100%;
+        position: relative;
+        margin: 0 20px;
+        
+        
+    }
+  }
+  

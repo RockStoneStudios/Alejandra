@@ -1,6 +1,9 @@
 import styles from '../styles/Blog.module.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
+import Link from 'next/link';
+import Router from 'next/router';
+
 const Blog = () => {
     return (
         <div className={styles.container}>
@@ -11,7 +14,7 @@ const Blog = () => {
              <div className= {styles.content}>
                <h2 className={styles.titulo}></h2>
                <p>Comité Paritario en Seguridad y Salud en el Trabajo</p>
-               <button className={styles.button}>Leer Mas</button>
+           <Link href="http://www.bogotajuridica.gov.co/sisjur/normas/Norma1.jsp?i=5411"><a className={styles.button}> Leer Mas </a></Link>
              </div>
             </div>
         </div>

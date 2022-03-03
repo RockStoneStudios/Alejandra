@@ -80,6 +80,7 @@
     align-self: flex-end;
     border: .1rem solid rgba(143, 29, 29, 0.06);
     cursor: pointer;
+    text-align: center;
 }
 
  .button:hover{
@@ -90,3 +91,19 @@
 .topRow h2{
 
 }
+
+@media screen and (max-width : 480px) {
+  
+    .container{
+        
+       width: 90%;
+    }
+    .topRow h4{
+        color: black;
+        font-size: 1.5rem;
+        margin-top: 40px;
+    }
+    .content p{
+        font-size: 1.4rem;
+    }
+  }

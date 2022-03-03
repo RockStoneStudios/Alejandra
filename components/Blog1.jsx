@@ -1,6 +1,6 @@
 import styles from '../styles/Blog1.module.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-
+import Link from 'next/link';
 const Blog = () => {
     return (
         <div className={styles.container}>
@@ -11,7 +11,8 @@ const Blog = () => {
              <div className= {styles.content}>
                <h2 className={styles.titulo}></h2>
                <p>Comité de Conveniencia Laboral</p>
-               <button className={styles.button}>Leer Mas</button>
+             
+               <Link href="https://www.mintrabajo.gov.co/documents/20147/45107/resolucion_00000652_de_2012.pdf/d52cfd8c-36f3-da89-4359-496ada084f20?fbclid=IwAR3lx3A6JcNl8lRkVoJHK5ch3j2tkXLrHyiwLQ0r6oAyREI7Nb7ssNlMEuA"><a className={styles.button}>Leer Mas</a></Link>
              </div>
             </div>
         </div>

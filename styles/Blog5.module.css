@@ -90,3 +90,18 @@
 .topRow h2{
 
 }
+@media screen and (max-width : 480px) {
+  
+    .container{
+        
+       width: 90%;
+    }
+    .topRow h4{
+        color: black;
+        font-size: 1.5rem;
+        margin-top: 40px;
+    }
+    .content p{
+        font-size: 1.4rem;
+    }
+  }

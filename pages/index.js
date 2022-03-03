@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css';
 import Featured  from '../components/Featured';
 
 import ListBlog from '../components/ListBlog';
+import Navbar from '../components/Navbar';
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -16,6 +17,7 @@ export default function Home() {
        
        <link rel="icon" href="/favicon.ico" />
       </Head>
+      
        <Featured/>
       <ListBlog/>
      

@@ -10,7 +10,7 @@ const Blog = () => {
              </div>
              <div className= {styles.content}>
                <h2 className={styles.titulo}></h2>
-               <p>Protocolo para prevenir y mitigar el Covid-19</p>
+               <p>Protocolos para prevenir y mitigar el Covid-19</p>
                <button className={styles.button}>Leer Mas</button>
              </div>
             </div>

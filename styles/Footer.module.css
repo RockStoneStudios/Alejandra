@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 
@@ -54,3 +55,27 @@
     
 }
 
+@media screen and (max-width : 480px) {
+  
+    .container{
+        flex-direction: column;
+    }
+    .informacion{
+        display: flex;
+        align-items: center;
+        margin: auto 50px;
+    }
+    .parrafo{
+        width: 150px;
+        text-align: center;
+    }
+    .whatsapp{
+        margin: 5px 20px 10px 20px;
+    }
+    .facebook{
+        margin: 5px 20px 10px 20px;
+    }
+    .instagram{
+        margin: 5px 20px 10px 20px;
+    }
+  }

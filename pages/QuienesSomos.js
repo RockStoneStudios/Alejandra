@@ -5,7 +5,7 @@ const QuienesSomos = () => {
     <div className={styles.container}>
        <div className={styles.imagen}>
 
-         {/* <Image className={styles.img} src="/img/quienes.jpg" layout='fill' objectFit='contain'/> */}
+         <Image className={styles.img} src="/img/quienes.jpg" width={1200} height={1250} objectFit='contain'/>
        </div>
        <div className={styles.containerTexto}>
 

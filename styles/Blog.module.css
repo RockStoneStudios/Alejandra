@@ -11,7 +11,7 @@
 }
 
 .topRow{
-      background : linear-gradient(45deg,rgb(231, 231, 240) ,rgb(13, 233, 105));
+      background : linear-gradient(45deg,rgb(13, 236, 100) ,rgb(13, 233, 105));
     backdrop-filter: blur(.4rem);
     border-bottom: 2px double rgb(223, 223, 235);
 
@@ -32,7 +32,7 @@
     overflow: hidden;
     width: 20rem;
     backdrop-filter: blur(1rem);
-    background : linear-gradient(45deg,rgb(231, 231, 240) ,rgb(13, 233, 105));
+    background : linear-gradient(45deg,rgb(13, 231, 104) ,rgb(13, 233, 105));
     border: .1rem solid rgba(255,255,255,0.06);
    color: seashell;
 }
@@ -80,6 +80,7 @@
     align-self: flex-end;
     border: .1rem solid rgba(143, 29, 29, 0.06);
     cursor: pointer;
+    text-align: center;
 }
 
  .button:hover{
@@ -90,3 +91,22 @@
 .topRow h2{
 
 }
+
+
+
+@media screen and (max-width : 480px) {
+  
+    .container{
+        
+       width: 90%;
+    }
+    .topRow h4{
+        color: black;
+        font-size: 1.5rem;
+        margin-top: 40px;
+    }
+    .content p{
+        font-size: 1.4rem;
+    }
+  }
+  

@@ -1,13 +1,22 @@
 import styles from '../styles/Featured.module.css';
 import Image from 'next/image';
-import { useState } from 'react';
+import { useState , useEffect} from 'react';
+
  const Featured = () => {
      const [index,setIndex] = useState(0);
+     const [widthScreen, setWidthScreen] = useState(0);
+
+
   const images = [
       "/img/imagen11.jpg",
       "/img/imagen22.jpg",
       "/img/imagen33.jpg"
   ]
+
+   useEffect(()=>{
+      setWidthScreen(screen.width);
+      console.log(widthScreen);
+   },[widthScreen])
 
   const handleArrow = (direccion) =>{
       if(direccion=== "1"){

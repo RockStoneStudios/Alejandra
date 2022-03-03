@@ -1,6 +1,6 @@
 import styles from '../styles/Blog3.module.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-
+import Link from 'next/link';
 const Blog = () => {
     return (
         <div className={styles.container}>
@@ -11,7 +11,8 @@ const Blog = () => {
              <div className= {styles.content}>
                <h2 className={styles.titulo}></h2>
                <p>Estándares Mínimos del Sistema de Gestión en Seguridad y Salud en el Trabajo</p>
-               <button className={styles.button}>Leer Mas</button>
+              <Link href="https://www.mintrabajo.gov.co/documents/20147/59995826/Resolucion+0312-2019-+Estandares+minimos+del+Sistema+de+la+Seguridad+y+Salud.pdf"><a className={styles.button}
+              >Leer Mas</a></Link>
              </div>
             </div>
         </div>

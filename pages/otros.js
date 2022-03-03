@@ -24,7 +24,7 @@ const otros = () => {
             </div>
             
                 <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
-                Protocolo de bioseguridad para todas las empresas clase de riesgo I, II, II, IV, V.             
+                Protocolos de bioseguridad para todas las empresas clase de riesgo I, II, III, IV, V.             
                 <div className ={[styles.infoPersonal,styles.desplazar].join(' ')}>
                 Capacitación con profesionales (psicólogos, fisioterapeutas, deportólogos)
                 </div>
@@ -51,7 +51,7 @@ const otros = () => {
         <div className={styles.card}>
         <div className={styles.cardEncabezado} >
                 
-            <h1 className={styles.titulo}>Psicologia</h1>
+            <h1 className={styles.titulo}>Psicología</h1>
         <img src ='/img/target1.jpg' alt='' ></img>
             </div>
             <div className={styles.contenido}>
