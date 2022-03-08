@@ -8,7 +8,7 @@ const otros = () => {
          
            
        <div className={styles.tituloI}>
-           <h1>Servicios Estrategicos</h1>
+           <h1>Servicios Estratégicos</h1>
            <p>Los servicios estratégicos que M.O Seguridad y Salud en el Trabajo ofrecen,  corresponden a  relaciones entre varios servicios, sistemas o procesos que son gestionados para dar respuestas a las necesidades de nuestros clientes. Es un plus que muestra cómo alcanzar una serie de objetivos y dar soporte a la consecución de los resultados deseados tanto por sus clientes como para nosotros mismos.</p>
         </div>
   

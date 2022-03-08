@@ -15,7 +15,7 @@ const Navbar = () => {
           <ul className={open ?[styles.menu_items,styles.show].join(' ') : styles.menu_items}>
             <li onClick={()=>setOpen(false)}><Link href="/"><a>Home</a></Link></li>
             <li  onClick={()=>setOpen(false)}><Link href="/valores"><a>Valores</a></Link></li>
-            <li onClick={()=>setOpen(false)}><Link href="/QuienesSomos"><a>Quienes Somos</a></Link></li>
+            <li onClick={()=>setOpen(false)}><Link href="/QuienesSomos"><a>Quiénes Somos</a></Link></li>
             <li onClick={()=>setOpen(false)}><Link href="/sgsst"><a>Planes SG-SST</a></Link></li>
             <li onClick={()=>setOpen(false)}><Link href="/otros"><a>Otros Servicios</a></Link></li>
             <li onClick={()=>setOpen(false)}><Link href="/contactenos"><a>Contactenos</a></Link></li>

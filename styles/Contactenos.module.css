@@ -1,22 +1,36 @@
 .container{
+    width: 95%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+    margin: 20px;
 }
 
 .titulo{
-    color: gold;
+    color: black;
     font-size: 50px;
     margin-top: 30px;
 
 }
 
 
-.correo{
-    color: gold;
-    margin :50px;
+.correo  {
+   text-align: center;
+   font-size: 18px;
+
 
 }
+
+.correoI{
+    color: blue;
+}
+
+ .correo > h2 {
+     color: blue;
+ }
 
 .telefono{
     margin: 50px;
