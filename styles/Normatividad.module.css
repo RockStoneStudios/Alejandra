@@ -9,7 +9,8 @@
 .container > h1 {
     width: 100%;
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
+    color: rgb(83, 10, 151);
     text-shadow: -4px 1px 9px rgba(194, 231, 61, 0.5);
     text-decoration: underline;
 }
@@ -27,8 +28,29 @@
     
 }
 
+.articulo:hover{
+   box-shadow: -2px -1px 9px rgba(0, 0, 0, 0.7) ;
+}
+
 
 
  .articulo > a{
      color: blue;
+ }
+
+ .articulo > a:hover{
+     font-size: 30px;
+     transition: all 0.7s;
+     
+ }
+
+
+
+
+ @media screen and (max-width : 480px ) {
+    .articulo{
+        margin-left: 30px;
+     
+        
+    }
  }
