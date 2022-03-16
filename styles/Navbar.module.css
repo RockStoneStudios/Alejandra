@@ -232,14 +232,16 @@
 
 
 .logo{
+    flex: 1;
     color: #010;
     font-size: 35px;
-    padding: 0 80px;
+    padding: 0 70px;
     font-weight: bold;
 }
 
 
 .menu_items{
+     flex: 4;
     display: flex;
     list-style: none;
     margin-left: 30px;
@@ -249,7 +251,7 @@
 .menu_items li{
     border-radius: 3px;
     margin :0 20px;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
 }
 
@@ -260,13 +262,13 @@
 }
 
 .menu_items li a{
-  padding: 7px 0px;
+  padding: 2px 0px;
   text-transform: uppercase;
  
 }
 
 .menu_items li:hover, li.active{
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(252, 246, 246, 0.3);
     transition: .4s;
 }
 
