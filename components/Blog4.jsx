@@ -1,6 +1,6 @@
 import styles from '../styles/Blog4.module.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-
+import Link from 'next/link';
 const Blog = () => {
     return (
         <div className={styles.container}>
@@ -11,7 +11,7 @@ const Blog = () => {
              <div className= {styles.content}>
                <h2 className={styles.titulo}></h2>
                <p>Protocolos para prevenir y mitigar el Covid-19</p>
-               <button className={styles.button}>Leer Mas</button>
+              <Link href="/covid"><button className={styles.button}>Leer Mas</button></Link> 
              </div>
             </div>
         </div>

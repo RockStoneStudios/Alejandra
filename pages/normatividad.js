@@ -538,6 +538,7 @@ const normatividad = () => {
                   <a>Leer mas</a>
                </Link>
            </div>
+          
      <h1>Resoluciones</h1>
         <div className={styles.articulo}>
          <h1>Resolución 89/2019</h1>  
@@ -546,6 +547,7 @@ const normatividad = () => {
                <a>Leer mas</a>
             </Link>
         </div>
+       
         <div className={styles.articulo}>
          <h1>Resolucion 1747/2008</h1>  
           <h6>Por la cual se modifica la Resolución 634 de 2006</h6> 
@@ -1149,6 +1151,8 @@ const normatividad = () => {
                   <a>Leer mas</a>
                </Link>
            </div>
+           
+          
            <div className={styles.articulo}>
             <h1>Circular 72/2021</h1>   
              <h6>Registro anual de autoevaluaciones y planes de mejoramiento del SG-SST</h6>

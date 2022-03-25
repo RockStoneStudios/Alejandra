@@ -219,24 +219,26 @@
 }  */ 
 
 
+
 .menu{
     background-color: white;
-    height: 90px;
+    height: 120px;
     width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #010;
     box-shadow: 5px 0px 10px rgba(0, 0, 0, .6);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
 .logo{
     flex: 1;
-    color: #010;
-    font-size: 35px;
-    padding: 0 70px;
-    font-weight: bold;
+    margin: 10px 70px;
+    width: 200px;
+    
 }
 
 
@@ -296,10 +298,16 @@ ul.show{
 
 @media screen and (max-width:858px) {
     .menu{
-        height: 90px;
+        height: 120px;
         width: 106%;
+        display: flex;
+        
+        
+        
     }
-
+    .logo{
+        margin: 10px;
+    }
      .btn_menu{
          display: inline-flex;
          z-index: 1000;
@@ -340,8 +348,9 @@ ul.show{
      }
 
      .logo{
-         font-size: 25px;
-         padding-left: 35px;
+         font-size: 35px;
+         padding: 20px;
+         
      }
 }
 
