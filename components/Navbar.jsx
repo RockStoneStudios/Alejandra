@@ -10,7 +10,7 @@ const Navbar = () => {
     <>
       <div className={styles.menu}>
         <label className={styles.logo} >
-          <Image src= "/img/logoO.png" width={120} height={100} objectFit= 'cover' />
+          <Image src= "/img/logoO.png" width={150} height={122} objectFit= 'contain' />
           </label>
           <ul className={open ?[styles.menu_items,styles.show].join(' ') : styles.menu_items}>
             <li onClick={()=>setOpen(false)}><Link href="/"><a>Home</a></Link></li>

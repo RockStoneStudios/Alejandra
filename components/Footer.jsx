@@ -28,7 +28,7 @@ const Footer = () => {
 
                </div>
                <div className={styles.instagram}>
-                   <Link href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmo_ssst%2F%3Ffbclid%3DIwAR3JUejh2mQuJS6RCaeqRTYe75c6jJG4SURUvVYEeb5CKNV-QfBnwK_rS-0&h=AT013lEAcCwxdHIalyF5a0hv58_vf4vb28gmv-xqkYvpZly08EujFqAmiCZk-59nRSFuBtRJyLXSabG3VcUiAT8p2E3H2D_ZYKEQ9dB0lZXSYDi4G9rleaufAajqfUo5-bY"><a>
+                   <Link href="https://www.instagram.com/mo_ssst/?fbclid=IwAR3JUejh2mQuJS6RCaeqRTYe75c6jJG4SURUvVYEeb5CKNV-QfBnwK_rS-0"><a>
                    <FontAwesomeIcon size= "2x" icon={faInstagram}/>
                     </a></Link>
                    

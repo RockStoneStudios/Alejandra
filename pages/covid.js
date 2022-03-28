@@ -93,7 +93,7 @@ const Covid = () => {
            </div>
            <div className={styles.articulo}>
             <h1>Circular 22/2021</h1>   
-             <h6>Sobre la no exigencia de prueba de SARS-Cov-2 Covid-19 por parte del empleadora trabajadores y aspirantes a un puesto de trabajo</h6>
+             <h6>Sobre la no exigencia de prueba de SARS-Cov-2 Covid-19 por parte del empleadora trabajadores ...</h6>
               <Link href="https://www.mintrabajo.gov.co/documents/20147/61442826/Circular+0022.PDF/a858d468-707f-8d13-2790-2b43839a7ea7?t=1615235618146">
                   <a>Leer mas</a>
                </Link>
